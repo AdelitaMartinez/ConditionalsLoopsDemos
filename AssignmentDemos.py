@@ -42,5 +42,12 @@ print(x,y,rest)
 
 # Putting value in middle
 # Takes everything remaining in the middle and adds into a list
-x,*middle,y = 1,2,3,4,5,6,7
-print(x,y,middle)
+first,*middle,last = 1,2,3,4,5,6,7
+print(first,middle,last)
+
+# With names
+name = input('Please enter your full name: ')
+elements_of_name = name.split()
+print(elements_of_name)
+first,*middle,last = elements_of_name
+print(first,middle,last)
