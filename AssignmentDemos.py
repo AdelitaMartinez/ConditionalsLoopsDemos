@@ -39,3 +39,8 @@ print(f'key: {key} value: {value}')
 # Filled in available values, then made a list with remaining, stored into rest(can be any variable name that you want)
 x,y,*rest = 1,2,3,4,5,6,7
 print(x,y,rest)
+
+# Putting value in middle
+# Takes everything remaining in the middle and adds into a list
+x,*middle,y = 1,2,3,4,5,6,7
+print(x,y,middle)
