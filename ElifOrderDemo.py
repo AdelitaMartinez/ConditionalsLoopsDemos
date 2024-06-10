@@ -11,3 +11,6 @@ elif num > 20:
   # If number > 10 say greater than 10
 elif num > 10: 
   print('Greater than 10')
+
+else: 
+  print('Less than or equal to 10')
