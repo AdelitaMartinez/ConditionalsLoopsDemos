@@ -17,3 +17,25 @@ print(values)
 x,y,z = values
 
 print(x,y,z)
+
+# Works with dictionaries too 
+scoundrel = {'first_name': 'Robin', 'last_name': 'Hood'}
+
+# This is a good way of pulling out of a dictionary
+key, value = scoundrel.popitem()
+print(f'key: {key} value: {value}')
+
+key, value = scoundrel.popitem()
+print(f'key: {key} value: {value}')
+
+# Not enough values! This gives a value error
+# x,y,z = 1,2
+
+# Too many values! This also gives a value error
+#x,y,z = 1, 2, 3, 4
+
+# using * variable
+# * treats this as a list
+# Filled in available values, then made a list with remaining, stored into rest(can be any variable name that you want)
+x,y,*rest = 1,2,3,4,5,6,7
+print(x,y,rest)
