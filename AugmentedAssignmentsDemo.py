@@ -12,3 +12,9 @@ print(x)
 x = 2
 x *= 1
 print(x)
+
+#Augmented assignments with strings
+text = 'foo'
+text += 'bar'
+
+print(text)
